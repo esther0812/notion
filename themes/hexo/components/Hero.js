@@ -65,9 +65,11 @@ const Hero = props => {
       className='w-full h-screen relative bg-black'>
       <div className='text-white absolute bottom-0 flex flex-col h-full items-center justify-center w-full '>
         {/* 站点标题 */}
-        <div className='font-black text-4xl md:text-5xl shadow-text'>
-          {siteInfo?.title || siteConfig('TITLE')}
-        </div>
+        <h1>
+          <div className='font-black text-4xl md:text-5xl shadow-text'>
+            {siteInfo?.title || siteConfig('TITLE')}
+          </div>
+        </h1>
         {/* 站点欢迎语 */}
         <div className='mt-2 h-12 items-center text-center font-medium shadow-text text-lg'>
           <span id='typed' />
