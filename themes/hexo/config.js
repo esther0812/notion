@@ -2,9 +2,9 @@ const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
   HEXO_HOME_BANNER_GREETINGS: [
-    'WELKOM',
-    'HIER IS 'S WERELDS GROOTSTE SUGAR DADDY-DATINGWEBSITE',
-    'WORD NU LID EN BEGIN NU GRATIS MET DATEN🎉'
+    'Welkom op de grootste sugar daddy datingsite ter wereld',
+    'Meld je nu aan',
+    'en begin gratis te daten🎉'
   ], // 首页大图标语文字
 
   HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
