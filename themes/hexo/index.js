@@ -275,7 +275,7 @@ const LayoutSlug = props => {
             const article = document.getElementById('notion-article')
             if (!article) {
               router.push('/404').then(() => {
-                console.warn('Page Lost', router.asPath)
+                console.warn('404 page lost', router.asPath)
               })
             }
           }
