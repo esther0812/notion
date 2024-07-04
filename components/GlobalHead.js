@@ -71,7 +71,7 @@ const GlobalHead = props => {
   // SEO关键词
   let keywords = meta?.tags || siteConfig('KEYWORDS')
   if (post?.tags && post?.tags?.length > 0) {
-    keywords = post?.tags?.join(',')
+    keywords = post?.tags?.join(', ')
   }
 
   useEffect(() => {
