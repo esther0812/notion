@@ -15,7 +15,7 @@ const themes = scanSubdirectories(path.resolve(__dirname, 'themes'))
 const locales = (function () {
   // 根据BLOG_NOTION_PAGE_ID 检查支持多少种语言数据.
   // 支持如下格式配置多个语言的页面id xxx,zh:xxx,en:xxx
-  const langs = ['en', 'nl']
+  const langs = ['nl']
   if (BLOG.NOTION_PAGE_ID.indexOf(',') > 0) {
     const siteIds = BLOG.NOTION_PAGE_ID.split(',')
     for (let index = 0; index < siteIds.length; index++) {
@@ -75,7 +75,7 @@ const nextConfig = {
     : {
         defaultLocale: BLOG.LANG.slice(0, 2),
         // 支持的所有多语言,按需填写即可
-        locales: ['en', 'nl']
+        locales: ['nl']
       },
   images: {
     // 图片压缩
