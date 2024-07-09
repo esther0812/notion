@@ -21,8 +21,8 @@ const Footer = ({ title }) => {
       <span className='pl-2 hidden busuanzi_container_site_uv'>
         <i className='fas fa-users'/> <span className='px-1 busuanzi_value_site_uv'> </span> </span>
         <p className='text-xs pt-4 text-light-400 dark:text-gray-400'>{title} {siteConfig('BIO') && <>|</>} {siteConfig('BIO')}</p>
-        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>Copyright © 2024 <a href='https://www.sugarpapa.be' className='dark:text-gray-300'>www.sugarpapa.be</a>, INC. All rights reserved.</p>
-        <p className='text-xs pt-4 text-light-400 dark:text-gray-400'>Disclaimer: You must be over 19 to join. SugarDaddyMeet is not an escort service. SugarPapa does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.</p>
+        <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>Copyright © 2024 <a href='https://www.sugarpapa.be' className='dark:text-gray-300'>www.sugarpapa.be</a>, INC. All rights reserved.</p></span></b>
+        <p className='text-xs pt-4 text-light-400 dark:text-gray-400'>Disclaimer: You must be over 19 to join. SugarDaddyMeet is not an escort service. SugarPapa does not support escorts or prostitution. Profiles that may violate these terms and services will be banned.</p></span></b>
     </footer>
   )
 }
