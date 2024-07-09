@@ -183,7 +183,7 @@ const getSEOMeta = (props, router, locale) => {
       }
     case '/archive':
       return {
-        title: `${locale.NAV.ARCHIVE} | ${siteInfo?.title}`,
+        title: `${locale.NAV.ARCHIVE} - ${siteInfo?.title}`,
         description: `${siteInfo?.description}`,
         image: `${siteInfo?.pageCover}`,
         slug: 'archive',
