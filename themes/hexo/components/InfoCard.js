@@ -18,7 +18,7 @@ export function InfoCard(props) {
             <div
                 className='justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer'
                 onClick={() => {
-                  router.push('/')
+                  window.location.href = 'https://www.sugardaddymeet.com?tid=af100028782-m';
                 }}
             >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
