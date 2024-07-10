@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { useState } from 'react'
+import { useState, useEffect, useRef } from 'react'
+
 /**
  * 支持二级展开的菜单
  * @param {*} param0
@@ -8,6 +9,30 @@ import { useState } from 'react'
 export const MenuItemDrop = ({ link }) => {
   const [show, changeShow] = useState(false)
   const hasSubMenu = link?.subMenus?.length > 0
+  const linkRef = useRef(null)
+
+  useEffect(() => {
+    const handleLinkClick = (event) => {
+      const targetHref = event.target.closest('a')?.href
+      const baseUrl = window.location.origin
+
+      if (targetHref === `${baseUrl}/`) {
+        event.preventDefault()
+        window.location.href = targetHref
+      }
+    }
+
+    const linkElement = linkRef.current
+    if (linkElement) {
+      linkElement.addEventListener('click', handleLinkClick)
+    }
+
+    return () => {
+      if (linkElement) {
+        linkElement.removeEventListener('click', handleLinkClick)
+      }
+    }
+  }, [])
 
   if (!link || !link.show) {
     return null
@@ -21,7 +46,7 @@ export const MenuItemDrop = ({ link }) => {
         <Link
           href={link?.href}
           target={link?.target}
-          className=' menu-link pl-2 pr-4 no-underline tracking-widest pb-1'>
+          className='menu-link pl-2 pr-4 no-underline tracking-widest pb-1'>
           {link?.icon && <i className={link?.icon} />} {link?.name}
           {hasSubMenu && <i className='px-2 fa fa-angle-down'></i>}
         </Link>
@@ -29,10 +54,10 @@ export const MenuItemDrop = ({ link }) => {
 
       {hasSubMenu && (
         <>
-          <div className='cursor-pointer menu-link pl-2 pr-4  no-underline tracking-widest pb-1'>
+          <div className='cursor-pointer menu-link pl-2 pr-4 no-underline tracking-widest pb-1'>
             {link?.icon && <i className={link?.icon} />} {link?.name}
             <i
-              className={`px-2 fa fa-angle-down duration-300  ${show ? 'rotate-180' : 'rotate-0'}`}></i>
+              className={`px-2 fa fa-angle-down duration-300 ${show ? 'rotate-180' : 'rotate-0'}`}></i>
           </div>
         </>
       )}
@@ -41,19 +66,19 @@ export const MenuItemDrop = ({ link }) => {
       {hasSubMenu && (
         <ul
           style={{ backdropFilter: 'blur(3px)' }}
-          className={`${show ? 'visible opacity-100 top-12' : 'invisible opacity-0 top-20'} drop-shadow-md overflow-hidden rounded-md text-black dark:text-white bg-white dark:bg-black transition-all duration-300 z-20 absolute block  `}>
+          className={`${show ? 'visible opacity-100 top-12' : 'invisible opacity-0 top-20'} drop-shadow-md overflow-hidden rounded-md text-black dark:text-white bg-white dark:bg-black transition-all duration-300 z-20 absolute block`}>
           {link.subMenus.map((sLink, index) => {
             return (
               <li
                 key={index}
-                className='cursor-pointer hover:bg-indigo-500 hover:text-white tracking-widest transition-all duration-200 dark:border-gray-800  py-1 pr-6 pl-3'>
+                className='cursor-pointer hover:bg-indigo-500 hover:text-white tracking-widest transition-all duration-200 dark:border-gray-800 py-1 pr-6 pl-3'>
                 <Link href={sLink.href} target={link?.target}>
-                 <a ref={linkRef}>
-                  <span className='text-sm text-nowrap font-extralight'>
-                    {link?.icon && <i className={sLink?.icon}> &nbsp; </i>}
-                    {sLink.title}
-                  </span>
-                 </a>
+                  <a ref={linkRef}>
+                    <span className='text-sm text-nowrap font-extralight'>
+                      {link?.icon && <i className={sLink?.icon}> &nbsp; </i>}
+                      {sLink.title}
+                    </span>
+                  </a>
                 </Link>
               </li>
             )
