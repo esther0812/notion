@@ -37,13 +37,13 @@ return (
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
         Copyright © 2024{' '}
-        <a href='https://www.sugarpapa.be' className='dark:text-gray-300'>
-          www.sugarpapa.be
+        <a href='https://www.sugar-daddy-meet.nl' className='dark:text-gray-300'>
+          www.sugar-daddy-meet.nl
         </a>
         , INC. All rights reserved.
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        Disclaimer: You must be over 19 to join. SugarPapa is not an escort service. SugarPapa
+        Disclaimer: You must be over 19 to join. sugar-daddy-meet.nl is not an escort service. sugar-daddy-meet.nl
         does not support escorts or prostitution. Profiles that may violate these terms and
         services will be banned.
       </p>
