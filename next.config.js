@@ -9,12 +9,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: BLOG.BUNDLE_ANALYZER
 })
 
-// 提取语言前缀的函数
-function extractLangPrefix(siteId) {
-  const parts = siteId.split(':');
-  return parts.length > 1 ? parts[0] : null;
-}
-
 // 扫描项目 /themes下的目录名
 const themes = scanSubdirectories(path.resolve(__dirname, 'themes'))
 // 检测用户开启的多语言
