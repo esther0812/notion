@@ -1,10 +1,19 @@
 import fs from 'fs'
 
 export async function generateRobotsTxt(props) {
+  const { siteInfo } = props
+  const LINK = siteInfo?.link
   const content = `
-User-agent: *
-Disallow: /registerStep1?*
-Disallow: /login?*
+    # *
+    User-agent: *
+    Allow: /
+  
+    # Host
+    Host: ${LINK}
+  
+    # Sitemaps
+    Sitemap: ${LINK}/sitemap.xml
+  
     `
   try {
     fs.mkdirSync('./public', { recursive: true })
