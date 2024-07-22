@@ -1,7 +1,7 @@
 import BLOG from '@/blog.config'
 import { siteConfig } from '@/lib/config'
 import { getGlobalData, getPostBlocks } from '@/lib/db/getSiteData'
-import { generateRobotsTxt } from '@/lib/robots.txt'
+import { generateRobotsTxt } from '@/public/robots.txt'
 import { generateRss } from '@/lib/rss'
 import { getLayoutByTheme } from '@/themes/theme'
 import { useRouter } from 'next/router'
