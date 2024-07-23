@@ -75,7 +75,7 @@ const nextConfig = {
     : {
         defaultLocale: BLOG.LANG.slice(0, 2),
         // 支持的所有多语言,按需填写即可
-        locales
+        ['en-US', 'es', 'fr', 'nl-NL', 'zh-CN']
       },
   images: {
     // 图片压缩
