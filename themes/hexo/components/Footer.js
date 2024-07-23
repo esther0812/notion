@@ -37,15 +37,15 @@ return (
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
         Copyright © 2024{' '}
-        <a href='https://www.sugar-daddy-meet.nl' className='dark:text-gray-300'>
-          www.sugar-daddy-meet.nl
+        <a href='https://www.sugar-daddy-ae.com' className='dark:text-gray-300'>
+          www.sugar-daddy-ae.com
         </a>
         , INC. All rights reserved.
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        Disclaimer: You must be over 19 to join. sugar-daddy-meet.nl is not an escort service. sugar-daddy-meet.nl
-        does not support escorts or prostitution. Profiles that may violate these terms and
-        services will be banned.
+        إخلاء المسؤولية: يجب أن يكون عمرك أكثر من 19 عامًا للانضمام. Sugar-daddy-ae.com ليست خدمة مرافقة. Sugar-daddy-ae.com
+ لا يدعم المرافقة أو الدعارة. الملفات الشخصية التي قد تنتهك هذه الشروط و
+ سيتم حظر الخدمات.
       </p>
     </span>
   </footer>
