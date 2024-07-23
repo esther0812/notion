@@ -73,9 +73,9 @@ const nextConfig = {
   i18n: process.env.EXPORT
     ? undefined
     : {
-        defaultLocale: 'en-US',
+        defaultLocale: BLOG.LANG.slice(0, 2),
         // 支持的所有多语言,按需填写即可
-        locales: ['en-US', 'es', 'fr', 'nl-NL', 'zh-CN']
+        locales
       },
   images: {
     // 图片压缩
