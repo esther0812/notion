@@ -160,6 +160,15 @@ const GlobalHead = props => {
           <meta property='article:publisher' content={FACEBOOK_PAGE} />
         </>
       )}
+
+      <script type="application/ld+json">
+      {`{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Sugar Daddy UAE"
+      }`}
+      </script>
+       
       {children}
     </Head>
   )
