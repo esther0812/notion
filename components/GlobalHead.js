@@ -96,8 +96,6 @@ const GlobalHead = props => {
   return (
     <Head>
       <link rel='icon' href={favicon} />
-      <link rel="alternate" href="https://www.sugar-daddy-ae.com" hreflang="ar" />
-      <link rel="alternate" href="https://www.sugar-daddy-ae.com/lang-en" hreflang="en" />
       <title>{title}</title>
       <meta name='theme-color' content={BACKGROUND_DARK} />
       <meta
@@ -160,15 +158,6 @@ const GlobalHead = props => {
           <meta property='article:publisher' content={FACEBOOK_PAGE} />
         </>
       )}
-
-      <script type="application/ld+json">
-      {`{
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Sugar Daddy UAE"
-      }`}
-      </script>
-       
       {children}
     </Head>
   )
