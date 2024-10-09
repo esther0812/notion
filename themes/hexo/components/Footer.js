@@ -37,15 +37,12 @@ return (
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
         Copyright © 2024{' '}
-        <a href='https://www.example.com' className='dark:text-gray-300'>
-          www.example.com
+        <a href='www.herpesdatesite.com' className='dark:text-gray-300'>
+          www.herpesdatesite.com
         </a>
         , INC. All rights reserved.
       </p>
       <p className='text-xs pt-2 text-light-500 dark:text-gray-500'>
-        إخلاء المسؤولية: يجب أن يكون عمرك أكثر من 19 عامًا للانضمام. example.com ليست خدمة مرافقة. example.com
- لا يدعم المرافقة أو الدعارة. الملفات الشخصية التي قد تنتهك هذه الشروط و
- سيتم حظر الخدمات.
       </p>
     </span>
   </footer>
