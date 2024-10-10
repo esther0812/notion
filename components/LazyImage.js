@@ -122,12 +122,12 @@ export default function LazyImage({
   if (style) {
     imgProps.style = style
   }
-
-  if (className) {
-  imgProps.className = `h-auto ${className}` // 确保 h-auto 始终存在
-  } else {
-  imgProps.className = 'h-auto' // 如果没有 className，确保至少 h-auto 被添加
-  }
+  /**
+  *if (className) {
+  *imgProps.className = `h-auto ${className}` // 确保 h-auto 始终存在
+  *} else {
+  *imgProps.className = 'h-auto' // 如果没有 className，确保至少 h-auto 被添加
+  }*/
 
   return (
     <>
