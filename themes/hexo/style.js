@@ -13,9 +13,9 @@ const Style = () => {
     .dark body{
         background-color: black;
     }
-    .h-auto {
+    /*.h-auto {
         height: auto;
-    }
+    }*/
     /*  菜单下划线动画 */
     #theme-hexo .menu-link {
         text-decoration: none;
