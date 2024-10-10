@@ -1,54 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Dutch Version -->
+  
+  <!-- Main Site -->
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/</loc>
-    <lastmod>2024-07-19</lastmod>
+    <loc>https://www.herpesdatesite.com/</loc>
+    <lastmod>2024-10-09T05:03:50+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1.00</priority>
   </url>
+  
+  <!-- Specific Content Pages -->
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/roxy-dekker-Sugardaddy-vs-echte-sugardaddy.html</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sugar-daddy-meet.nl/wat-is-een-suikeroom.html</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sugar-daddy-meet.nl/hoe-je-een-veilige-suikerdate-kunt-hebben.html</loc>
-    <lastmod>2024-07-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.herpesdatesite.com/archive</loc>
+    <lastmod>2024-10-09T05:04:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
 
-  <!-- English Version -->
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/lang-en</loc>
-    <lastmod>2024-07-19</lastmod>
+    <loc>https://www.herpesdatesite.com/tag/herpes%20dating</loc>
+    <lastmod>2024-10-09T05:04:55+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>0.80</priority>
   </url>
+
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/lang-en/roxy-dekker-Sugardaddy-vs-real-sugardaddy.html</loc>
-    <lastmod>2024-07-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.herpesdatesite.com/en/Herpes%20Dating%20Blog</loc>
+    <lastmod>2024-10-09T05:05:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
+
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/lang-en/what-is-a-sugar-daddy.html</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.herpesdatesite.com/en/Herpes-Dating-Site-Review</loc>
+    <lastmod>2024-10-09T05:05:10+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
+
   <url>
-    <loc>https://www.sugar-daddy-meet.nl/lang-en/how-to-have-a-safe-sugar-date.html</loc>
-    <lastmod>2024-07-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.herpesdatesite.com/tag/herpes%20dating%20site</loc>
+    <lastmod>2024-10-09T05:05:15+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
   </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/en/Dating-with-Herpes-You-Need-to-Know</loc>
+    <lastmod>2024-10-10T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/en/Affiliate-Projects-Beyond-Herpes-Dating</loc>
+    <lastmod>2024-10-09T06:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/tag/affiliate</loc>
+    <lastmod>2024-10-10T06:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Miscellaneous Pages -->
+  <url>
+    <loc>https://www.herpesdatesite.com/www.herpesdatesite.com</loc>
+    <lastmod>2024-10-09T07:02:20+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/tag/www.herpesdatesite.com</loc>
+    <lastmod>2024-10-09T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/https:/www.MPWH.com/registerStep1?tid=af100001660_hds</loc>
+    <lastmod>2024-10-09T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/Herpes-Dating-Site-Review</loc>
+    <lastmod>2024-10-09T07:03:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/en/www.herpesdatesite.com</loc>
+    <lastmod>2024-10-09T07:02:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/Herpes%20Dating%20Blog</loc>
+    <lastmod>2024-10-09T07:02:55+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/Dating-with-Herpes-You-Need-to-Know</loc>
+    <lastmod>2024-10-10T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/Affiliate-Projects-Beyond-Herpes-Dating</loc>
+    <lastmod>2024-10-10T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <url>
+    <loc>https://www.herpesdatesite.com/https:/www.MPWH.com/www.herpesdatesite.com</loc>
+    <lastmod>2024-10-10T07:02:50+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.51</priority>
+  </url>
+
 </urlset>
