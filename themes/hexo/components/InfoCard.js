@@ -18,7 +18,7 @@ export function InfoCard(props) {
             <div
                 className='justify-center items-center flex py-6 dark:text-gray-100  transform duration-200 cursor-pointer'
                 onClick={() => {
-                  window.location.href = 'https://www.MPWH.com/?tid=af100001660_hds';
+                  window.location.href = 'https://www.MPWH.com?tid=af100001660_hds';
                 }}
             >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
