@@ -530,7 +530,7 @@ const BLOG = {
   IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || false, // 文章图片是否自动添加阴影
   IMG_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMG_COMPRESS_WIDTH || 800, // Notion图片压缩宽度
 
-  AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://raw.githubusercontent.com/JayJ686868/avatar/main/HDS%20logo.png', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
+  AVATAR: process.env.NEXT_PUBLIC_AVATAR || 'https://raw.githubusercontent.com/JayJ686868/avatar/refs/heads/main/HDS%20logo.png', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
   
   // 作废配置
   TITLE: process.env.NEXT_PUBLIC_TITLE || 'NotionNext BLOG', // 站点标题 ，被notion中的页面标题覆盖；此处请勿留空白，否则服务器无法编译
